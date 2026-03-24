@@ -14,14 +14,13 @@ public class Monprojet {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-    char a ='4';
-        char b ='3';
-        if (a==b){
-            System.out.println(a+" = "+b);
-        }else{
-           System.out.println(a+" et "+ b +" sont different");
-        }
-
+    char a = '3';
+    char b = '11';
+    char c = '5';
+    char d = '8';
+    
+    boolean resultat = (a==b);
+    System.out.println(resultat);
     }
     
 }
