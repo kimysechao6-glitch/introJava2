@@ -14,12 +14,14 @@ public class Monprojet {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int age = 2026 - 2002;
-        System.out.println(age);
-        String nomComplet ="Pierre" +" " + "Dupont";
-        System.out.println(nomComplet + " est ne en 2002 donc il a "+ age + " ans");
+    char a ='4';
+        char b ='3';
+        if (a==b){
+            System.out.println(a+" = "+b);
+        }else{
+           System.out.println(a+" et "+ b +" sont different");
+        }
 
-        
     }
     
 }
